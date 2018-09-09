@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;javathreads&apos; to &apos;cs 335 textBook/src&apos;&#x0D;&#x0A;- Original project: &apos;cs 335 textBook&apos;&#x0D;&#x0A;- Destination element: &apos;cs 335 textBook/src&apos;&#x0D;&#x0A;- Original element: &apos;javathreads&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="/src" element1="javathreads" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1441129141354" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;powerNumber&apos; in &apos;powerball.SystemRandom.main(...)&apos; to &apos;randomNumber&apos;&#x0D;&#x0A;- Original project: &apos;cs 335 inClass&apos;&#x0D;&#x0A;- Original element: &apos;powerball.SystemRandom.main(String[]).powerNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;powerNumber&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;powerNumber&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;powerball{SystemRandom.java[SystemRandom~main~\[QString;@powerNumber!166!199!173!183!QRandom;!0!false" name="randomNumber" references="true" stamp="1452410772364" version="1.0"/>
+</session>

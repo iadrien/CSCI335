@@ -1,0 +1,82 @@
+package cse247class1;
+
+public class coin {
+
+	public static void main(String[] args) {
+
+		int coins[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,12};
+
+//		int sum = 0;
+//		for (int i = 0; i < coins.length; i++) {
+//			sum = sum + coins[i];
+//		}
+		int sum = 0;
+		
+		sum = coins.length;
+		System.out.print(sum);
+		// // TODO Auto-generated method stub
+		// int coins[] = {1,2,5};
+		//
+		// int money = 10+1;
+		// int ways[] = new int[money];
+		//
+		// ways[coins[0]]=1;
+		// ways[0]=0;
+		// // for(int i=0;i<coins[coins.length-1];i++){
+		// // ways[i]=-1;
+		// // }
+		// //
+		// // for (int i=0;i<coins.length;i++){
+		// // ways[coins[0]]=1;
+		// // }
+		//
+		// for (int i=coins[0]+1;i<money;i=i+1){
+		// for(int j= 0;j<coins.length;j++){
+		// int remainder = i-coins[j];
+		// if(remainder>=0&&ways[remainder]!=0){
+		// ways[i]=ways[remainder]+ways[i];
+		// }
+		// }
+		// }
+		// for(int i = 0;i<ways.length;i++){
+		// System.out.println(ways[i]);
+		// }
+	}
+
+	static int LoopSum(int[] array) {
+		int sum = 0;
+
+		for (int index = 0; index < array.length; index++) {
+			sum = sum + array[index];
+		}
+		
+		return sum;
+	}
+	
+	static int WhileSum(int[] array){
+		int sum = 0;
+		int index = 0;
+		
+		while(index < array.length){
+			sum = sum + array[index];
+			++index;
+		}
+		
+		return sum;
+	}
+
+	static int RecursionSum(int index, int[] array){
+		if(index<array.length){
+			
+			return array[index]+RecursionSum(index + 1, array);
+		}else{
+			return 0;
+		}
+	}
+	
+	static int[] concatenate(int[] array1, int[]array2){
+		int index = 0;
+		int mergedArraySize = array1.length + array2.length;
+		return array1;
+	}
+}
