@@ -1,2 +1,2 @@
 # CSCI335
-Operating System and Threads
+Materials and solutions to the class Operating System and Threads @ Beloit College
